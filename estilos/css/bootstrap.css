@@ -296,6 +296,10 @@ img,
 svg {
   vertical-align: middle;
 }
+svg:hover{
+  width: 50px;
+  height: 50px;
+}
 
 table {
   caption-side: bottom;
@@ -3926,6 +3930,7 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
