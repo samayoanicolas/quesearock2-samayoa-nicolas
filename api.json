@@ -1,0 +1,39 @@
+[
+    {
+      "precio": 1500,
+      "id": 1,
+      "title": "Gorra cjs",
+      "img": "../img/Tienda/gorra cjs.jpeg"
+    },
+    {
+      "precio": 1500,
+      "id": 2,
+      "title": "Gorra la Renga",
+      "img": "img/Tienda/gorra la renga.jpeg"
+    },
+    {
+      "precio": 1500,
+      "id": 3,
+      "title": "Gorra de los stones",
+      "img": "img/Tienda/gorra stones.jpeg"
+    },
+    {
+      "precio": 3500,
+      "id": 4,
+      "title": "Remera de Viejas Locas",
+      "img": "img/Tienda/remera viejas.jpeg"
+    },
+    {
+      "precio": 3000,
+      "id": 5,
+      "title": "Remera de los gardelitos",
+      "img": "/img/Tienda/remera gardelitos.jpeg"
+    },
+    {
+      "precio": 3500,
+      "id": 6,
+      "title": "Remera de Soda",
+      "img": "img/Tienda/remera soda.jpeg"
+    }
+  ]
+  

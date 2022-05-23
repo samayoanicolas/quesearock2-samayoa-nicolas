@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../icons/favicon.ico">
-    <link rel="stylesheet" href="../estilos/css/bootstrap.css">
+    <link rel="stylesheet" href="../estilos/css/bootstrap.css">   
     <title>QueSeaRock-Tienda</title>
-    
 </head>
 <body>
     <header>
@@ -41,135 +40,72 @@
             </div>
           </nav>
     </header>
-    <h1 class="text-center text-light text-decoration-underline">Tienda</h1>
-
-    <!--inicio primera linea de venta-->
+   
     <div class="container">
-        <div class="row mt-5">                       
-            <div class="col-sm d-flex justify-content-center mb-5 p-0">
-                <div class="card bg-danger" style="width: 18rem;">
-                    <img src="../img/Tienda/remera viejas.jpeg" class="card-img-top" alt="remera">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Remera de Viejas Locas</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item text-center bg-danger">$1.698,37</li>                     
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">link</a>
-                    </div>
-                  </div>
-            </div>      
-            <div class="col-sm d-flex  justify-content-center mb-5 p-0">
-                <div class="card bg-danger" style="width: 18rem;">
-                    <img src="../img/Tienda/remera sumo.jpeg" class="card-img-top" alt="remera">
-                    <div class="card-body">
-                      <h5 class="card-title">Remera de Sumo</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item text-center bg-danger">$1.698,37</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">link</a>
-                    </div>
-                  </div>
-           </div>
-           <div class="col-sm d-flex  justify-content-center mb-5 p-0">
-            <div class="card bg-danger" style="width: 18rem;">
-                <img src="../img/Tienda/remera soda.jpeg" class="card-img-top" alt="remera">
-                <div class="card-body">
-                  <h5 class="card-title">Remera de Soda</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-center bg-danger">$1.698,37</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">link</a>
-                </div>
-              </div>
-           </div>
-           <div class="col-sm d-flex justify-content-center mb-5 p-0">
-            <div class="card bg-danger" style="width: 18rem;">
-                <img src="../img/Tienda/remera gardelitos.jpeg" class="card-img-top" alt="remera">
-                <div class="card-body">
-                  <h5 class="card-title">Remera de Los Gardelitos</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-center bg-danger">$1.698,37</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">link</a>
-                </div>
-              </div>
-           </div>
-        </div>
-    </div>
-    <!--fin primera linea de venta-->
-    <hr class="text-light" width="75%">
+      <h1 class="text-center text-light text-decoration-underline">Tienda</h1>
+      <hr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Acción</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+          <tr id="pie">
+            <th scope="row" colspan="5">Carrito vacío!</th>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="row" id="cards"></div>
+  </div>
 
-    <!--inciio segunda linea de venta-->
-    <div class="container">
-        <div class="row mt-5">                       
-            <div class="col-sm d-flex align-items-center justify-content-center mb-5">
-                <div class="card bg-danger" style="width: 18rem;">
-                    <img src="../img/Tienda/gorra cjs.jpeg" class="card-img-top" alt="gorra">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Gorra de Callejeros</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item text-center bg-danger">$793,10</li>                     
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">link</a>
-                    </div>
-                  </div>
-            </div>      
-            <div class="col-sm d-flex align-items-center justify-content-center mb-5">
-                <div class="card bg-danger" style="width: 18rem;">
-                    <img src="../img/Tienda/gorra la renga.jpeg" class="card-img-top" alt="gorra">
-                    <div class="card-body">
-                      <h5 class="card-title">Gorra de La Renga</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item text-center bg-danger">$793,10</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">link</a>
-                    </div>
-                  </div>
-           </div>
-           <div class="col-sm d-flex align-items-center justify-content-center mb-5">
-            <div class="card bg-danger" style="width: 18rem;">
-                <img src="../img/Tienda/gorra los piojos.jpeg" class="card-img-top" alt="gorra">
-                <div class="card-body">
-                  <h5 class="card-title">Gorra de Los Piojos</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-center bg-danger">$793,10</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">link</a>
-                </div>
-              </div>
-           </div>
-           <div class="col-sm d-flex align-items-center justify-content-center mb-5">
-            <div class="card bg-danger" style="width: 18rem;">
-                <img src="../img/Tienda/gorra stones.jpeg" class="card-img-top" alt="gorra">
-                <div class="card-body">
-                  <h5 class="card-title">Gorra de los Stones</h5>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-center bg-danger">$793,107</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">link</a>
-                </div>
-              </div>
-           </div>
+  <template id="template-card">
+    <div class="col-md-4 mb-2">
+      <div class="card">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Titulo</h5>
+          <p>precio</p>
+          <button class="btn btn-dark">Comprar</button>
         </div>
+      </div>
     </div>
-    <!--fin segunda linea de venta-->
-    
+  </template>
+
+  <template id="template-footer">
+    <th scope="row" colspan="2">Total productos</th>
+    <td>10</td>
+    <td>
+        <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+            vaciar todo
+        </button>
+    </td>
+    <td class="font-weight-bold">$ <span>5000</span></td>
+</template>
+
+<template id="template-carrito">
+  <tr>
+    <th scope="row">id</th>
+    <td>Café</td>
+    <td>1</td>
+    <td>
+        <button class="btn btn-info btn-sm">
+            +
+        </button>
+        <button class="btn btn-danger btn-sm">
+            -
+        </button>
+    </td>
+    <td>$ <span>500</span></td>
+  </tr>
+</template>
+  
+ 
     <!--inicio footer-->
     <section>
     <div class="container-fluid bg-dark">
@@ -203,7 +139,7 @@
     </div>
     </section>
     <!--fin footer-->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+    <script src="../app.js"></script>
+   
+  </body>
 </html>
